@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848612720145",
+    "project_id": "contaminacion-acustica-d05d8",
+    "storage_bucket": "contaminacion-acustica-d05d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848612720145:android:859bf92e6f55afd4ffbbb0",
+        "android_client_info": {
+          "package_name": "com.ssaragon.macaae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVXcDf_UvfAuwYkdm3CHusE_0oPVePhYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

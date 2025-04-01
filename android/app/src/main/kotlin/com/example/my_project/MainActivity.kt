@@ -1,0 +1,6 @@
+package com.ssaragon.macaae
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
