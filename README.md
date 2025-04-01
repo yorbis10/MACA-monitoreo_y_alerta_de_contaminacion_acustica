@@ -1,7 +1,7 @@
-# Contaminacion Acustica
+# MACA: MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
-A new Flutter project.
+Estructura base del proyecto
 
 ## Getting Started
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+Primer commit: configuración y archivos base.
