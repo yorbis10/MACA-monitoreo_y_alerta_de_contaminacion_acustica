@@ -1,5 +1,6 @@
-![Descripción de la imagen]([URL-de-la-imagen](https://i.postimg.cc/hjr0qm6d/marca.png))
-# MACA: MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
+[![marca.png](https://i.postimg.cc/hjr0qm6d/marca.png)](https://postimg.cc/628Zr89W)
+
+# MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
 Estructura base del proyecto
 
