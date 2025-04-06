@@ -122,7 +122,7 @@ class _ReporteWidgetState extends State<ReporteWidget> {
               ),
               FlutterFlowWebView(
                 content:
-                    'https://vps.macatdea.com:3000/dashboard/snapshot/YqoPAhiuipbzSj0bg89kPMi54btcYXjx?orgId=0',
+                    'https://yorbistdea.grafana.net/public-dashboards/72d8db71d5ed4d628385499ae63b89af',
                 bypass: false,
                 height: 810.0,
                 verticalScroll: false,

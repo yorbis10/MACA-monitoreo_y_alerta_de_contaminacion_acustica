@@ -386,19 +386,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Perfil de Administración',
       'en': 'Administration Profile',
     },
-    'lz2n0zo6': {
+    'xvk4rsfx': {
       'es': 'Editar Perfil',
       'en': 'Edit Profile',
     },
-    'qnq7h7ay': {
+    'co45f8bl': {
       'es': 'Cambiar Contraseña',
       'en': 'Change Password',
     },
-    'gamjts0z': {
+    '76so17et': {
       'es': 'Panel de Administacion',
       'en': 'Administration Panel',
     },
-    't02xr18p': {
+    'arntewcq': {
       'es': 'Cerrar sesión',
       'en': 'Log out',
     },

@@ -340,7 +340,8 @@ class _RuidoEnVivoWidgetState extends State<RuidoEnVivoWidget>
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: FlutterFlowWebView(
-                    content: 'https://vps.macatdea.com',
+                    content:
+                        'https://yorbistdea.grafana.net/public-dashboards/8e26f9c40eb94a7fa2fc8b86cfb6d62e',
                     height: 1000.0,
                     verticalScroll: false,
                     horizontalScroll: false,
