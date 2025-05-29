@@ -139,10 +139,19 @@ class _RuidoEnVivoWidgetState extends State<RuidoEnVivoWidget>
               'h3s495y9' /* Medicion en Vivo */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Inter',
+                  font: GoogleFonts.inter(
+                    fontWeight:
+                        FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                    fontStyle:
+                        FlutterFlowTheme.of(context).headlineMedium.fontStyle,
+                  ),
                   color: Colors.white,
                   fontSize: 22.0,
                   letterSpacing: 0.0,
+                  fontWeight:
+                      FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                  fontStyle:
+                      FlutterFlowTheme.of(context).headlineMedium.fontStyle,
                 ),
           ),
           actions: [
@@ -274,8 +283,27 @@ class _RuidoEnVivoWidgetState extends State<RuidoEnVivoWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium
                                               .override(
-                                                fontFamily: 'Inter',
+                                                font: GoogleFonts.inter(
+                                                  fontWeight:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .headlineMedium
+                                                          .fontWeight,
+                                                  fontStyle:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .headlineMedium
+                                                          .fontStyle,
+                                                ),
                                                 letterSpacing: 0.0,
+                                                fontWeight:
+                                                    FlutterFlowTheme.of(context)
+                                                        .headlineMedium
+                                                        .fontWeight,
+                                                fontStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .headlineMedium
+                                                        .fontStyle,
                                               ),
                                         ),
                                       ),
@@ -286,8 +314,25 @@ class _RuidoEnVivoWidgetState extends State<RuidoEnVivoWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodySmall
                                         .override(
-                                          fontFamily: 'Readex Pro',
+                                          font: GoogleFonts.readexPro(
+                                            fontWeight:
+                                                FlutterFlowTheme.of(context)
+                                                    .bodySmall
+                                                    .fontWeight,
+                                            fontStyle:
+                                                FlutterFlowTheme.of(context)
+                                                    .bodySmall
+                                                    .fontStyle,
+                                          ),
                                           letterSpacing: 0.0,
+                                          fontWeight:
+                                              FlutterFlowTheme.of(context)
+                                                  .bodySmall
+                                                  .fontWeight,
+                                          fontStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .bodySmall
+                                                  .fontStyle,
                                         ),
                                   ),
                                 ],
@@ -341,9 +386,9 @@ class _RuidoEnVivoWidgetState extends State<RuidoEnVivoWidget>
                   ),
                   child: FlutterFlowWebView(
                     content:
-                        'https://yorbistdea.grafana.net/public-dashboards/8e26f9c40eb94a7fa2fc8b86cfb6d62e',
-                    height: 1000.0,
-                    verticalScroll: false,
+                        'https://snapshots.raintank.io/dashboard/snapshot/LHDyf7CtiWFGIHZcSZqfFcTKueQTp3pu?orgId=0&refresh=5s&from=1746623207185&to=1746709607185&theme=light',
+                    height: 1087.76,
+                    verticalScroll: true,
                     horizontalScroll: false,
                   ),
                 ).animateOnPageLoad(

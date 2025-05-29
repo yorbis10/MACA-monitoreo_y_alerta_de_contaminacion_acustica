@@ -14,6 +14,7 @@ class FlutterFlowIconButton extends StatefulWidget {
     this.disabledIconColor,
     this.hoverColor,
     this.hoverIconColor,
+    this.hoverBorderColor,
     this.onPressed,
     this.showLoadingIndicator = false,
   }) : super(key: key);
@@ -26,6 +27,7 @@ class FlutterFlowIconButton extends StatefulWidget {
   final Color? disabledIconColor;
   final Color? hoverColor;
   final Color? hoverIconColor;
+  final Color? hoverBorderColor;
   final Color? borderColor;
   final double? borderWidth;
   final bool showLoadingIndicator;
@@ -79,6 +81,17 @@ class _FlutterFlowIconButtonState extends State<FlutterFlowIconButton> {
     ButtonStyle style = ButtonStyle(
       shape: MaterialStateProperty.resolveWith<OutlinedBorder>(
         (states) {
+          if (states.contains(MaterialState.hovered)) {
+            return RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(widget.borderRadius ?? 0),
+              side: BorderSide(
+                color: widget.hoverBorderColor ??
+                    widget.borderColor ??
+                    Colors.transparent,
+                width: widget.borderWidth ?? 0,
+              ),
+            );
+          }
           return RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(widget.borderRadius ?? 0),
             side: BorderSide(

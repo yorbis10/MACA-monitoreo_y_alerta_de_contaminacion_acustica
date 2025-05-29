@@ -75,10 +75,19 @@ class _ReporteWidgetState extends State<ReporteWidget> {
               'ur8belpj' /* Reporte */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Inter',
+                  font: GoogleFonts.inter(
+                    fontWeight:
+                        FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                    fontStyle:
+                        FlutterFlowTheme.of(context).headlineMedium.fontStyle,
+                  ),
                   color: Colors.white,
                   fontSize: 22.0,
                   letterSpacing: 0.0,
+                  fontWeight:
+                      FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                  fontStyle:
+                      FlutterFlowTheme.of(context).headlineMedium.fontStyle,
                 ),
           ),
           actions: [
@@ -122,7 +131,7 @@ class _ReporteWidgetState extends State<ReporteWidget> {
               ),
               FlutterFlowWebView(
                 content:
-                    'https://yorbistdea.grafana.net/public-dashboards/72d8db71d5ed4d628385499ae63b89af',
+                    'https://snapshots.raintank.io/dashboard/snapshot/OsTlvnK9I00feg6vTqNByOO2CiJSptEN?orgId=0&refresh=5s&from=1746680400000&to=1746766799999&theme=light',
                 bypass: false,
                 height: 810.0,
                 verticalScroll: false,

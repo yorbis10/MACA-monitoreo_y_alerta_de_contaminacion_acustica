@@ -74,10 +74,19 @@ class _MapaDeCalorWidgetState extends State<MapaDeCalorWidget> {
               'vxcl94ux' /* Mapa de Calor */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Inter',
+                  font: GoogleFonts.inter(
+                    fontWeight:
+                        FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                    fontStyle:
+                        FlutterFlowTheme.of(context).headlineMedium.fontStyle,
+                  ),
                   color: Colors.white,
                   fontSize: 22.0,
                   letterSpacing: 0.0,
+                  fontWeight:
+                      FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                  fontStyle:
+                      FlutterFlowTheme.of(context).headlineMedium.fontStyle,
                 ),
           ),
           actions: [
@@ -117,9 +126,9 @@ class _MapaDeCalorWidgetState extends State<MapaDeCalorWidget> {
               ClipRRect(
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.network(
-                  'https://i.postimg.cc/W3qP6RDz/mapa-de-calor.png',
+                  'https://i.postimg.cc/JzJrZ009/Mapa-de-calor-tdea.png',
                   width: double.infinity,
-                  height: 700.0,
+                  height: 768.0,
                   fit: BoxFit.contain,
                 ),
               ),

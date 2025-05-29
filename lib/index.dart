@@ -20,3 +20,5 @@ export '/usuario/detalleusuario/detalleusuario_widget.dart'
     show DetalleusuarioWidget;
 export '/mapa_de_calor/mapa_de_calor_widget.dart' show MapaDeCalorWidget;
 export '/reporte/reporte_widget.dart' show ReporteWidget;
+export '/loaderio4fa2ac6b82b493ece426faa81d23b900/loaderio4fa2ac6b82b493ece426faa81d23b900_widget.dart'
+    show Loaderio4fa2ac6b82b493ece426faa81d23b900Widget;

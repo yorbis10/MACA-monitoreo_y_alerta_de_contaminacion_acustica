@@ -83,16 +83,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
-      errorBuilder: (context, state) => appStateNotifier.loggedIn
-          ? RuidoEnVivoWidget()
-          : PaginaInicioWidget(),
+      errorBuilder: (context, state) =>
+          appStateNotifier.loggedIn ? RuidoEnVivoWidget() : LoginWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => appStateNotifier.loggedIn
-              ? RuidoEnVivoWidget()
-              : PaginaInicioWidget(),
+          builder: (context, _) =>
+              appStateNotifier.loggedIn ? RuidoEnVivoWidget() : LoginWidget(),
         ),
         FFRoute(
           name: RegistroUsuarioWidget.routeName,
@@ -166,6 +164,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: ReporteWidget.routeName,
           path: ReporteWidget.routePath,
           builder: (context, params) => ReporteWidget(),
+        ),
+        FFRoute(
+          name: Loaderio4fa2ac6b82b493ece426faa81d23b900Widget.routeName,
+          path: Loaderio4fa2ac6b82b493ece426faa81d23b900Widget.routePath,
+          builder: (context, params) =>
+              Loaderio4fa2ac6b82b493ece426faa81d23b900Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -336,7 +340,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/Pagina-Inicio';
+            return '/Login';
           }
           return null;
         },

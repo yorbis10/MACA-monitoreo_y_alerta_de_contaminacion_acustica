@@ -12,6 +12,7 @@ import 'editar_perfil_widget.dart' show EditarPerfilWidget;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -20,10 +21,10 @@ import 'package:webviewx_plus/webviewx_plus.dart';
 class EditarPerfilModel extends FlutterFlowModel<EditarPerfilWidget> {
   ///  State fields for stateful widgets in this page.
 
-  bool isDataUploading = false;
-  FFUploadedFile uploadedLocalFile =
+  bool isDataUploading_uploadData1mc = false;
+  FFUploadedFile uploadedLocalFile_uploadData1mc =
       FFUploadedFile(bytes: Uint8List.fromList([]));
-  String uploadedFileUrl = '';
+  String uploadedFileUrl_uploadData1mc = '';
 
   // State field(s) for correo widget.
   FocusNode? correoFocusNode;

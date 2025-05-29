@@ -597,6 +597,21 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Start',
     },
   },
+  // loaderio4fa2ac6b82b493ece426faa81d23b900
+  {
+    'pcmbljj4': {
+      'es': 'loaderio-4fa2ac6b82b493ece426faa81d23b900',
+      'en': '',
+    },
+    'j75o20hv': {
+      'es': 'Pruebas de estrés y rendimiento',
+      'en': '',
+    },
+    '9egrcr2u': {
+      'es': 'Home',
+      'en': 'Home',
+    },
+  },
   // CambiarClave
   {
     'vjyexf7b': {
