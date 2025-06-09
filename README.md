@@ -2,6 +2,10 @@
 
 # MACA - MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
+## 👩‍💻 Integrantes
+- Yorbis Aragón Bedoya  
+- Daniel Álvarez Echeverry
+
 ## 🎯 Objetivo General
 Desarrollar un sistema de bajo costo para el monitoreo en tiempo real de la contaminación acústica en instituciones de educación superior.
 
@@ -38,10 +42,6 @@ Durante una prueba de 30 días:
 - Se registraron más de **250,000 mediciones** en aulas, biblioteca y cafetería.
 - El **bloque 5 y la cafetería** presentaron los niveles más altos.
 - El sistema mostró un **coeficiente de determinación R² de 0.97** y un **MAE del 2.5%**, comparable con equipos profesionales.
-
-## 👩‍💻 Integrantes
-- Yorbis Aragón Bedoya  
-- Daniel Álvarez Echeverry
 
 ## 👨‍🏫 Asesores
 - María Nelcy González  
