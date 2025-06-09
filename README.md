@@ -2,11 +2,11 @@
 
 # MACA - MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
-## 👩‍💻 Integrantes
-- Yorbis Aragón Bedoya  
-- Daniel Álvarez Echeverry
+## 💻 Integrantes
+- 🧑🏽‍💻Yorbis Aragón Bedoya  
+- 👨🏻‍💻 Daniel Álvarez Echeverry
 
-- ## 👨‍🏫 Asesores
+## 👨‍🏫 Asesores
 - María Nelcy González  
 - Silvana Vallejo Córdoba  
 - Juan David Tamayo  
