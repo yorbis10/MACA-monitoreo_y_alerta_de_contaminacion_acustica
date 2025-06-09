@@ -6,6 +6,11 @@
 - Yorbis Aragón Bedoya  
 - Daniel Álvarez Echeverry
 
+- ## 👨‍🏫 Asesores
+- María Nelcy González  
+- Silvana Vallejo Córdoba  
+- Juan David Tamayo  
+
 ## 🎯 Objetivo General
 Desarrollar un sistema de bajo costo para el monitoreo en tiempo real de la contaminación acústica en instituciones de educación superior.
 
@@ -43,23 +48,15 @@ Durante una prueba de 30 días:
 - El **bloque 5 y la cafetería** presentaron los niveles más altos.
 - El sistema mostró un **coeficiente de determinación R² de 0.97** y un **MAE del 2.5%**, comparable con equipos profesionales.
 
-## 👨‍🏫 Asesores
-- María Nelcy González  
-- Silvana Vallejo Córdoba  
-- Juan David Tamayo  
 
 ## 📚 Referencias
 - [Manual de Efectos de Ruido – EPA](https://www.nonoise.org/library/handbook/handbook.htm)
 - [Estudios de impacto del ruido en estudiantes](http://dspace.tecnologicosudamericano.edu.ec/jspui/handle/123456789/610)
 - [Diseño de sistemas de monitoreo IoT acústico](https://hdl.handle.net/20.500.12867/3479)
 
-## 🎥 Demostración
+## 🎥 Mockups
 ![1.png](https://i.postimg.cc/3JcQT0QV/1.png)
-![2.png](https://i.postimg.cc/s2FFBFXJ/2.png)
 ![3.png](https://i.postimg.cc/h4Mq23yS/3.png)
-![4.png](https://i.postimg.cc/NfVSVh1w/4.png)
-![5.png](https://i.postimg.cc/9FzsJXwp/5.png)
-![6.png](https://i.postimg.cc/3rtPX0NN/6.png)
 ![7.png](https://i.postimg.cc/SR13k33C/7.png)
 ![8.png](https://i.postimg.cc/qqvWf4bp/8.png)
 ![9.png](https://i.postimg.cc/vBzCScvP/9.png)
