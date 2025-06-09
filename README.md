@@ -1,7 +1,59 @@
 ![marca.png](https://i.postimg.cc/hjr0qm6d/marca.png)
 
-# MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA
+# MACA - MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
+## 🎯 Objetivo General
+Desarrollar un sistema de bajo costo para el monitoreo en tiempo real de la contaminación acústica en instituciones de educación superior.
+
+## 🎯 Objetivos Específicos
+- Diseñar un prototipo para adquirir variables acústicas (intensidad, frecuencia, duración).
+- Implementar una plataforma central para reportes, alertas y visualización.
+- Validar el sistema mediante pruebas funcionales, de precisión y usabilidad.
+
+## 📌 Contexto
+La **Resolución 627 de 2006** del Ministerio de Ambiente en Colombia establece límites permisibles para la exposición al ruido. Sin embargo, en entornos educativos no se suele hacer medición ni control, afectando la concentración y salud de los estudiantes.
+
+## ⚙️ Metodología
+Se utilizó una metodología híbrida:
+- **Waterfall** para el desarrollo del hardware.
+- **Scrum** con 6 sprints para el desarrollo del software.
+
+## 🧪 Alcance del Sistema
+- Medición en vivo del ruido ambiental.
+- Alerta automática cuando se exceden los límites.
+- Visualización en tiempo real vía plataforma web (Grafana).
+- Registro y análisis de datos en base de datos relacional y NoSQL.
+
+## 🧩 Arquitectura del Sistema
+![Arquitectura-del-sistema-drawio.png](https://i.postimg.cc/4x9qR85H/Arquitectura-del-sistema-drawio.png)
+
+## 🛠️ Tecnologías Utilizadas
+- **Hardware:** ESP32, Sensor de sonido, Pantalla OLED.
+- **Backend:** Node.js, Broker MQTT, MySQL.
+- **Frontend:** Grafana para visualización.
+- **Despliegue:** VPS (Ubuntu), Nginx.
+
+## 📊 Resultados
+Durante una prueba de 30 días:
+- Se registraron más de **250,000 mediciones** en aulas, biblioteca y cafetería.
+- El **bloque 5 y la cafetería** presentaron los niveles más altos.
+- El sistema mostró un **coeficiente de determinación R² de 0.97** y un **MAE del 2.5%**, comparable con equipos profesionales.
+
+## 👩‍💻 Integrantes
+- Yorbis Aragón Bedoya  
+- Daniel Álvarez Echeverry
+
+## 👨‍🏫 Asesores
+- María Nelcy González  
+- Silvana Vallejo Córdoba  
+- Juan David Tamayo  
+
+## 📚 Referencias
+- [Manual de Efectos de Ruido – EPA](https://www.nonoise.org/library/handbook/handbook.htm)
+- [Estudios de impacto del ruido en estudiantes](http://dspace.tecnologicosudamericano.edu.ec/jspui/handle/123456789/610)
+- [Diseño de sistemas de monitoreo IoT acústico](https://hdl.handle.net/20.500.12867/3479)
+
+## 🎥 Demostración
 ![1.png](https://i.postimg.cc/3JcQT0QV/1.png)
 ![2.png](https://i.postimg.cc/s2FFBFXJ/2.png)
 ![3.png](https://i.postimg.cc/h4Mq23yS/3.png)
@@ -12,7 +64,7 @@
 ![8.png](https://i.postimg.cc/qqvWf4bp/8.png)
 ![9.png](https://i.postimg.cc/vBzCScvP/9.png)
 ![10.png](https://i.postimg.cc/nzZ6kvqj/10.png)
-# ARQUITECTURA
-![Arquitectura-del-sistema-drawio.png](https://i.postimg.cc/4x9qR85H/Arquitectura-del-sistema-drawio.png)
 ![11.png](https://i.postimg.cc/tgFKWrnG/11.png)
 ![12.png](https://i.postimg.cc/htQWP4Sj/12.png)
+
+
