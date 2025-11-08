@@ -6,10 +6,10 @@
 🧑🏽‍💻Yorbis Aragón Bedoya  
 👨🏻‍💻 Daniel Álvarez Echeverry
 
-## 👨‍🏫 Asesores
+<!-- ## 👨‍🏫 Asesores
 - María Nelcy González  
 - Silvana Vallejo Córdoba  
-- Juan David Tamayo  
+- Juan David Tamayo  -->
 
 ## 🎯 Objetivo General
 Desarrollar un sistema de bajo costo para el monitoreo en tiempo real de la contaminación acústica en instituciones de educación superior.
