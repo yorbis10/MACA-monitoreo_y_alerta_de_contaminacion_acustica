@@ -2,7 +2,7 @@
 
 # MACA - MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
 
-## 💻 Integrantes
+## 💻 Desarrollado por:
 🧑🏽‍💻Yorbis Aragón Bedoya  
 👨🏻‍💻 Daniel Álvarez Echeverry
 
