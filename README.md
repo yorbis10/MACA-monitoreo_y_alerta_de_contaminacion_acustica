@@ -11,8 +11,22 @@
 - Silvana Vallejo Córdoba  
 - Juan David Tamayo  -->
 
+##🧩 Introducción
+
+MACA es un sistema IoT de bajo costo diseñado para monitorear y alertar sobre los niveles de contaminación acústica en instituciones de educación superior.
+El proyecto busca contribuir al bienestar ambiental y académico, promoviendo espacios más saludables mediante la recolección y visualización de datos en tiempo real.
+
+## ⚙️ Características principales  
+- 📡 **Monitoreo en tiempo real** de niveles de ruido ambiental.  
+- 🎛️ **Sensores de sonido** integrados (compatibles con MAX4466, INMP441, SEN0232).  
+- 💾 **Procesamiento local** mediante **ESP32** para adquisición y envío de datos.  
+- ☁️ **Conectividad IoT** con soporte para **MQTT** y plataformas en la nube.  
+- 📊 **Visualización de datos** en dashboards web o móviles.  
+- 🚨 **Alertas configurables** ante niveles de ruido que superen los umbrales establecidos.  
+- 🔋 **Bajo consumo energético** y fácil integración en entornos educativos. 
+
 ## 🎯 Objetivo General
-Desarrollar un sistema de bajo costo para el monitoreo en tiempo real de la contaminación acústica en instituciones de educación superior.
+Desarrollar un sistema de bajo costo utilizando sensores de sonido y placas ESP32 para el monitoreo en tiempo real de la contaminación acústica.
 
 ## 🎯 Objetivos Específicos
 - Diseñar un prototipo para adquirir variables acústicas (intensidad, frecuencia, duración).
