@@ -1,6 +1,7 @@
 ![marca.png](https://i.postimg.cc/hjr0qm6d/marca.png)
 
 # MACA - MONITOREO Y ALERTA DE CONTAMINACIÓN ACÚSTICA EN AMBIENTES EDUCATIVOS
+### 🔗 [www.macatdea.com](https://macatdea.com/)
 
 ## 💻 Desarrollado por:
 🧑🏽‍💻Yorbis Aragón Bedoya  
@@ -11,7 +12,7 @@
 - Silvana Vallejo Córdoba  
 - Juan David Tamayo  -->
 
-##🧩 Introducción
+## 🧩 Introducción
 
 MACA es un sistema IoT de bajo costo diseñado para monitorear y alertar sobre los niveles de contaminación acústica en instituciones de educación superior.
 El proyecto busca contribuir al bienestar ambiental y académico, promoviendo espacios más saludables mediante la recolección y visualización de datos en tiempo real.
